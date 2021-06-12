@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Nick Jauregui"
+  avatar : "/assets/images/death_metal_cat.jpg"
+  bio    : "There and Back Again - A Reverser's Tale."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
