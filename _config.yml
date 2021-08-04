@@ -72,7 +72,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
     - label: "Medium"
-      icon: "fab fa-fw fa-medium"
+      icon: "fab fa-fw fa-medium-square"
       url: "https://medium.com/@crovax"
 
 footer:
