@@ -30,6 +30,8 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+search: true
+
 
 include:
   - _pages
@@ -62,14 +64,14 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      #url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
+    - label: "Medium"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
@@ -82,8 +84,8 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@crovax"
 
 defaults:
   # _posts
@@ -97,6 +99,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      date_format: "%B %-d, %Y"
  # _pages
 #   - scope:
 #       path: "_pages"
